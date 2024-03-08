@@ -1,0 +1,17 @@
+<html>
+<head>
+<style>
+#grad1 {
+  height: 200px;
+  background-color: red; 
+  background-image: linear-gradient(grey, black);
+}
+</style>
+</head>
+<body>
+
+<div id="grad1"></div>
+
+</body>
+</html>
+
