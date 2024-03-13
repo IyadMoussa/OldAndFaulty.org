@@ -1,7 +1,43 @@
 /* styles.css */
-body {
+body, html {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #808080, #000000); /* Grey to Black gradient */
-    font-family: Arial, sans-serif; /* Change font if needed */
+    overflow: hidden; /* Ensure the background covers the entire viewport */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px; /* Adjust the width of the logo as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between logo and title */
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust font size of the title */
+    color: white; /* Set the color of the title */
+}
+
+.moving-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #404040, #002147); /* Grey to Bluish-black gradient */
+    animation: moveBackground 20s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 0%; /* Initial position */
+    }
+    100% {
+        background-position: 100% 100%; /* Final position */
+    }
 }
