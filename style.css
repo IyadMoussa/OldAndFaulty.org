@@ -2,7 +2,7 @@
 <html>
 <head>
 <style> 
-#example1 {
+ {
   background-image: url(pexels-anand-dandekar-1532771.jpg), url(pexels-craig-adderley-1563356.jpg);
   background-position: right bottom, left top;
   background-repeat: no-repeat, repeat;
