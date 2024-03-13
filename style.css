@@ -1,7 +1,6 @@
-/* styles.css */
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Change colors as per your preference */
-    font-family: Arial, sans-serif; /* Change font if needed */
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    font-family: Arial, sans-serif;
 }
