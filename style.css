@@ -1,11 +1,21 @@
+<!DOCTYPE html>
 <html>
 <head>
-<style>
-body {
-  background-color: #808080;
+<style> 
+#example1 {
+  background-image: url(img_flwr.gif), url(paper.gif);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
 }
 </style>
 </head>
 <body>
+
+<div id="example1">
+</div>
+
 </body>
 </html>
+
+
