@@ -1,60 +1,26 @@
-/* Style for body */
+/* styles.css */
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Light gray background */
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #808080, #000000); /* Gradient from gray to black */
+    color: white; /* Text color */
 }
 
-/* Style for header */
-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Style for navigation bar */
-nav {
-    background-color: #444;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Style for navigation links */
-nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-}
-
-/* Style for navigation links on hover */
-nav a:hover {
-    background-color: #666;
-}
-
-/* Style for main content */
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff; /* White background for main content */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for buttons */
-.button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #808080; /* Gray button background */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+h1 {
+    text-align: center;
 }
 
-/* Style for buttons on hover */
-.button:hover {
-    background-color: #666; /* Darker gray on hover */
+p {
+    text-align: justify;
 }
