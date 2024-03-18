@@ -1,7 +1,7 @@
 <style>
         /* Inline CSS styles */
         body {
-            background: linear-gradient(to right, red, blue);
+            background: linear-gradient(to right, #FF0000, #000000);
             background-size: 400% 100%;
             animation: gradientAnimation 10s ease infinite;
         }
