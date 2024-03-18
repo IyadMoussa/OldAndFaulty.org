@@ -6,20 +6,18 @@
     <title>Refridgerator</title>
 
     <style>
- body {
+      body {
             background: linear-gradient(to right, #808080, #000000);
-            /* For older browsers */
-            background: -webkit-linear-gradient(left, #808080, #000000);
-            background: -moz-linear-gradient(left, #808080, #000000);
-            background: -o-linear-gradient(left, #808080, #000000);
-            background: -ms-linear-gradient(left, #808080, #000000);
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
+            animation: gradientAnimation 10s linear infinite alternate-reverse;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
         }
         }
 
