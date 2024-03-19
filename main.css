@@ -1,20 +1,20 @@
+/* styles.css */
 
-        /* Inline CSS styles */
-        body {
-            background: linear-gradient(to right, #FF0000, #000000);
-            background-size: 400% 100%;
-            animation: gradientAnimation 10s ease infinite;
-        }
+.gradient-background {
+    /* Gradient from grey (#808080) to black (#000000) */
+    background: linear-gradient(to right, #808080, #000000);
+    /* Additional styles for the gradient background */
+    /* You can add more styles here as needed */
+    width: 100%;
+    height: 100vh; /* Adjust the height as needed */
+    animation: moveGradient 5s linear infinite; /* Adjust the duration and timing function as needed */
+}
 
-        @keyframes gradientAnimation {
-            0% {
-                background-position: 0% 50%;
-            }
-            50% {
-                background-position: 100% 50%;
-            }
-            100% {
-                background-position: 0% 50%;
-            }
-        }
-    </body>
+@keyframes moveGradient {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
