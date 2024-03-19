@@ -1,20 +1,22 @@
-/* styles.css */
+/* moving-gradient.css */
 
-.gradient-background {
+body {
     /* Gradient from grey (#808080) to black (#000000) */
     background: linear-gradient(to right, #808080, #000000);
     /* Additional styles for the gradient background */
     /* You can add more styles here as needed */
-    width: 100%;
+    margin: 0;
+    padding: 0;
     height: 100vh; /* Adjust the height as needed */
+    overflow: hidden; /* Prevent horizontal scrollbars */
     animation: moveGradient 5s linear infinite; /* Adjust the duration and timing function as needed */
 }
 
 @keyframes moveGradient {
     0% {
-        background-position: 100% 0;
+        background-position: -100% 0;
     }
     100% {
-        background-position: 0 0;
+        background-position: 100% 0;
     }
 }
